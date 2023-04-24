@@ -1,1 +1,35 @@
+/* NavBar */
+.navbar { 
+    background-color: #65b3b6;
+}
 
+.navbar a {
+    color: white;
+    margin-right: 3rem;
+}
+
+.login-button {
+    transition: all 150ms;
+}
+
+.login-button:hover {
+    color: rgb(44, 80, 76);
+}
+
+.nav-services {
+    transition: all 150ms;
+}
+
+.nav-services:hover {
+    transform: scale(1.2);
+    color: rgb(44, 80, 76);
+}
+
+.nav-about {
+    transition: all 150ms;
+}
+
+.nav-about:hover {
+    transform: scale(1.2);
+    color: rgb(44, 80, 76);
+}

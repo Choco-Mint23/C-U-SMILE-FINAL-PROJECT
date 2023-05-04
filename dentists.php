@@ -6,7 +6,7 @@
 	<title>List of Dentists</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
-	rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+		  rel="stylesheet"  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
 
@@ -36,57 +36,58 @@
     </header>
 
 	<main>
-		<section class="container">
+		<section class="section1">
+
 			<h1>List of Dentists</h1>
 
+			<div class="leadDentImg">
+				<img src="images\FemaleDentist_1110x700.jpg" alt="lead Dentist">
+				</div>
 			<div class="leadDent">
-				<img src="https://via.placeholder.com/400x400" alt="lead Dentist">
-				<h2 style="margin-top: 150px;">Dr. James Reymond</h2>
-				<hr style="width: 80px; border-width: 1px; border-color: black; margin-left: 100px;">
-				<h3 style="margin-top: 20px;">Lead Dentist</h3>
+				<h2>Dr. Sarah Park</h2>
+				<h3>Lead Dentist</h3>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In maxime alias nulla molestiae blanditiis sed, quisquam corrupti reprehenderit quas neque quibusdam harum exercitationem dignissimos sapiente eum doloremque minus quis dolore.</p>
 			</div>
+		</section>
 
-			<div class="row">
-				<div class="col">
-					<img src="https://via.placeholder.com/350x500" alt="Doctor 1">
-					<h2>Dr. John Doe</h2>
-					<h3>Dentist</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
-				</div>
+		
+		<section class="section2">
 
-				<div class="col1">
-					<img src="https://via.placeholder.com/350x500" alt="Doctor 2">
-					<h2>Dr. Jane Smith</h2>
-					<h3>Dentist</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
-				</div>
-
-				<div class="col2">
-					<img src="https://via.placeholder.com/350x500" alt="Doctor 1">
-					<h2>Dr. John Doe</h2>
-					<h3>Dentist</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
-				</div>
-
-				<div class="col3">
-					<img src="https://via.placeholder.com/350x500" alt="Doctor 2">
-					<h2>Dr. Jane Smith</h2>
-					<h3>Dentist</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
-				</div>
+			<div class="dent1">
+				<img src="images\drgirishdongarwar.jpg" alt="Doctor 1">
+				<h2>Dr. John Doe</h2>
+				<h3>Dentist</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
 			</div>
 
+		    <div class="dent2">
+				<img src="images\dentist-malony-santos-new (1).jpg" alt="Doctor 2">
+				<h2>Dr. David Lee</h2>
+				<h3>Dentist</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
+			</div> 
+		 
+			<div class="dent3">
+				<img src="images\drgirishdongarwar.jpg" alt="Doctor 1">
+				<h2>Dr. Michael Johnson</h2>
+				<h3>Dentist</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
+			</div>
+  
+			<div class="dent4">
+				<img src="images\drgirishdongarwar.jpg" alt="Doctor 2">
+				<h2>Dr. James Chen</h2>
+				<h3>Dentist</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor fringilla dui sed posuere. Sed eget nibh consectetur, tincidunt urna sit amet, vehicula mi. Sed eu efficitur tellus. Nullam hendrerit vestibulum ipsum, eu ullamcorper dolor gravida et.</p>
+			</div>  
 		</section>
+
 	</main>
 
-				<footer>
-					<h4>Footer(to be edited)</h4>
+			<footer>
+				<h4>Footer(to be edited)</h4>
 					
-				</footer>
-
-				
+			</footer> 
 				
 </body>
 </html>
-    

@@ -1,0 +1,316 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+ }
+
+
+ /* NavBar */
+ .navbar { 
+    background-color: #65b3b6;
+ }
+
+ .navbar a {
+    color: white;
+    margin-right: 3rem;
+ }
+
+ .login-button {
+    transition: all 150ms;
+ }
+
+ .login-button:hover {
+    color: rgb(44, 80, 76);
+ }
+
+ .nav-services {
+    transition: all 150ms;
+ }
+
+ .nav-services:hover {
+    transform: scale(1.2);
+    color: rgb(44, 80, 76);
+ }
+
+ .nav-about {
+    transition: all 150ms;
+ }
+
+ .nav-about:hover {
+    transform: scale(1.2);
+    color: rgb(44, 80, 76);
+ }
+
+ /* Do Not Touch The CSS code above this comment, This is for the Title and Nav Bar CSS */
+
+
+
+ /* SECTION_1 */
+ .section1{
+	background-color: #0E284B;
+	height: 550px;
+	position: relative;
+	border-bottom: 2px solid black;	
+ }
+ 
+ .section1:before{
+	content: "";
+	background-image: url(dentists_images/wepik-export-20230514143259S9Na.jpeg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+ }
+ 
+ .section1 h1{
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 60px;
+	font-weight: bold;
+ }
+
+ .section1 p{
+	padding-top: 200px;
+	text-align: center;
+	color: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 22px;
+	font-weight: 400;
+ }
+
+
+
+ /* SECTION_2 */
+ .section2{
+	height: 900px;
+	position: relative;
+	background-color: hsl(34, 78%, 91%);
+  }
+
+ .section2::after {
+	content: '';
+	display: block;
+	position: absolute;
+	padding-bottom: 130px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+ /* lead_dent */
+ .leadDent {
+	position: absolute;
+	width: 600px;
+	top: 200px;
+	left: 200px;	
+ } 
+
+ .leadDentImg {
+	position: absolute;
+	top: 150px;
+	right: 350px;
+	border: black;
+	border-style: solid;
+  }
+
+ .leadDent h2 {
+	color: #3b898b;
+	border-bottom: 2px solid;
+	width: 330px;
+ 	padding-bottom: 15px;
+ }
+
+ .leadDent h3,
+ .leadDent p{
+	margin-top: 20px;
+ }
+
+
+
+ /* SECTION_3 */
+ .section3{
+	background-color: antiquewhite;
+	position: relative;
+	height: 1800px;
+ }
+
+
+ /* Dent_1 */
+ .dent1{
+	position: absolute;
+	margin-left: 200px;
+    width: 600px;
+ }
+
+ .dent1 img{
+	border: solid;
+	border-color: black;
+ }
+
+ .dent1 h2{
+	color: #3b898b;
+	border-bottom: 2px solid;
+	padding-bottom: 15px;
+	width: 300px;
+	margin-top: 20px;
+ }
+ 
+ .dent1 h3{
+	margin-top: 20px;
+ }
+
+ .dent1 p{
+	font-size: 18px;
+	margin-top: 20px;
+	
+ }
+
+
+ /* Dent_2 */
+ .dent2{
+	position: absolute;
+	margin-left: 1050px;
+    width: 600px;
+ }
+
+ .dent2 img{
+	height: 510px;
+	width: 390px;
+	border: solid;
+	border-color: black;
+ }
+
+ .dent2 h2{
+	color: #3b898b;
+	border-bottom: 2px solid;
+	padding-bottom: 15px;
+	width: 220px;
+	margin-top: 20px;
+ }
+
+ .dent2 h3{
+	margin-top: 20px;
+ } 
+
+ .dent2 p{
+	font-size: 18px;
+	margin-top: 20px;
+	
+ }
+
+
+ /* Dent_3 */
+ .dent3{
+	position: absolute;
+	margin-top: 900px;
+	margin-left: 200px;
+    width: 600px;
+ }
+
+ .dent3 img{
+	height: 510px;
+	width: 400px;
+	border: solid;
+	border-color: black;
+ }
+
+ .dent3 h2{
+	color: #3b898b;
+	border-bottom: 2px solid;
+	padding-bottom: 15px;
+	width: 310px;
+	margin-top: 20px;
+ }
+
+ .dent3 h3{
+	margin-top: 20px;
+ }
+
+ .dent3 p{
+	font-size: 18px;
+	margin-top: 20px;
+ }
+
+
+ /* Dent_4 */
+ .dent4{
+	position: absolute;
+	margin-top: 900px;
+	margin-left: 1050px;
+    width: 600px;
+ }
+
+ .dent4 img{
+	height: 510px;
+	width: 420px;
+	border: solid;
+	border-color: black;
+ }
+
+ .dent4 h2{
+	color: #3b898b;
+	border-bottom: 2px solid;
+	padding-bottom: 15px;
+	width: 240px;
+	margin-top: 20px;
+ }
+
+ .dent4 h3{
+	margin-top: 20px;
+ }
+
+ .dent4 p{
+	font-size: 18px;
+	margin-top: 20px;
+ }
+
+
+ /*footer */
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+ .container {
+    max-width: 960px;
+    margin: 0 auto;
+ }
+  
+ .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+ .logo img {
+    max-width: 100px;
+    float: left;
+  }
+  
+ .contact-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+ .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ .contact-info a:hover {
+    color: #f2f2f2;
+  }
+
+  /* END */

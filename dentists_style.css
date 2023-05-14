@@ -130,8 +130,12 @@ body {
  	padding-bottom: 15px;
  }
 
- .leadDent h3,
+ .leadDent h3{
+	margin-top: 20px;
+ }
+
  .leadDent p{
+	font-size: 18px;
 	margin-top: 20px;
  }
 

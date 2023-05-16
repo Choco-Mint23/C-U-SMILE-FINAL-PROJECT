@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2023 at 05:13 AM
+-- Generation Time: May 16, 2023 at 06:05 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -37,15 +37,6 @@ CREATE TABLE `appointment_dates` (
   `dentist` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `appointment_dates`
---
-
-INSERT INTO `appointment_dates` (`id`, `date_booked`, `appt_type`, `patient_name`, `contact_number`, `appt_date`, `dentist`) VALUES
-(35, '2023-05-15 11:43:59', 'I think I need braces.', 'Achille Lanutan', '09338781090', 'May-23-2023 5:00 PM', 'Dr. Raymund'),
-(37, '2023-05-15 14:25:30', 'I just want to fuck you honestly.', 'Eman Patalinghug', '12345', 'May-24-2023 10:00 AM', 'Dr. Raymund'),
-(38, '2023-05-16 02:03:47', 'a', 'a', 'a', 'May-16-2023 12:00 AM', 'Dr. Raymund');
-
 -- --------------------------------------------------------
 
 --
@@ -65,7 +56,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_email`, `user_password`, `registration`, `user_type`) VALUES
-(8, 'raymund_cusmile@gmail.com', '12345', '2023-05-16 01:26:28', 'dentist');
+(8, 'raymund_cusmile@gmail.com', '12345', '2023-05-16 01:26:28', 'dentist'),
+(10, '22103514@usc.edu.ph', '12345', '2023-05-16 03:33:21', 'patient'),
+(11, 'john_patient@gmail.com', '12345', '2023-05-16 03:42:58', 'patient');
 
 --
 -- Indexes for dumped tables
@@ -91,13 +84,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `appointment_dates`
 --
 ALTER TABLE `appointment_dates`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

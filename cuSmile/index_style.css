@@ -1,0 +1,375 @@
+/* body {
+    overflow-x: hidden;
+    height: 100%;
+} */
+:root {
+    --secondary-bg: #e7e7e7;
+    --primary-bg: #65b3b6;
+    --white: #fff;
+    --black: #202020;
+    --xx: 72px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--black);
+}
+
+body {
+    font-family: FS Albert Pro;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.offer-text {
+    text-align: center;
+    font-size:40px;
+    color: var(--white);
+}
+
+.text3{
+    float:left;
+    text-align: center;
+    font-size:40px;
+}
+.parent{
+    display:flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Our Dentist Section */
+
+.our-dentist-container h1 {
+    margin-top: 200px;
+    font-size: var(--xx);
+    color: var(--primary-bg);
+}
+
+
+/* Carousel */
+.carousel {
+    margin-bottom: 200px;
+    /* margin-top: 200px; */
+}
+
+.carousel-item img{
+    height: 70vh;
+    max-height: 70vh;
+}
+
+.our-dentist-container{
+    margin-top: 300px;
+    height: fit-content;
+    overflow:auto; 
+    margin-bottom: 300px; 
+}
+
+.our-dentist-text{
+    float:left;
+    width: 70%;
+    font-size: 24px;
+    padding: 0 0 0 20px;
+}
+
+.our-dentist-img{
+    height: 300px;
+    width: auto;
+    margin-left: 60px;
+    float: left;  
+}
+
+.carousel-item img {
+    height: 500px;
+    width: auto;
+}
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.img1,
+.img2,
+.img3{
+    height: 300px;
+    width: auto;
+}
+
+.img5{
+    height: 400px;
+    width: auto;
+    float:right;
+    margin-left: 500px;
+}
+
+.button2{
+    text-align: center;
+    margin: 0 auto;
+    display:block;
+    border: none;
+    color: red;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;  
+}
+
+.testimony-container {
+    background-color: var(--primary-bg);
+
+}
+
+.testimony-content img {
+    width: 200px; /* set the desired width */
+    height: 200px; /* set the desired height */
+    object-fit: cover; /* preserve aspect ratio */
+  }
+/*footer */
+footer {
+    background-color: var(--primary-bg);
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    /* max-width: 960px; */
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    float: left;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-info a:hover {
+    color: #f2f2f2;
+  }
+
+
+
+
+/* NavBar */
+.navbar { 
+    background-color: #65b3b6;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 3rem;
+}
+
+.login-button {
+    transition: all 150ms;
+}
+
+.login-button:hover {
+    color: rgb(44, 80, 76);
+}
+
+.nav-services {
+    transition: all 150ms;
+}
+
+.nav-services:hover {
+    /* transform: scale(1.2); */
+    color: rgb(44, 80, 76);
+}
+
+.nav-about {
+    transition: all 150ms;
+}
+
+.nav-about:hover {
+    /* transform: scale(1.2); */
+    color: rgb(44, 80, 76);
+}
+
+/* Hero */
+.hero-container {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.hero-img { 
+    min-width: 400px;
+    max-width: 100%;
+}
+
+.hero-left {
+    width: px;
+    height: auto;
+}
+
+
+.hero-right h1 {
+    font-size: 72px;
+}
+
+.hero-right a {
+    font-size: 42px;
+}
+
+.hero-right {
+    display: flex;
+}
+
+.book-appointment-button {
+    background-color: #65b3b6;
+    color: white;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #65b3b6;
+    padding: 7px;
+    width:auto;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+
+.list-dentist-button {
+    color: white;
+    width: fit-content;
+    left: 20px;
+}
+
+.book-appointment-button {
+    position: relative;
+    transition: all 150ms;
+    width: fit-content;
+}
+
+.book-appointment-button:hover {
+    transform: scale(1.03);
+}
+
+.card h5 {
+    font-size: 40px;
+}
+.card p {
+    font-size: 20px;
+}
+.card a {
+    font-size: 20px;
+}
+
+
+.card h5 {
+    color: var(--primary-bg);
+}
+
+.card-title {
+    color: var(--white);
+}
+
+.button-offer {
+    margin: 0 auto 0 auto;
+}
+
+/* What We Offer Section */
+
+.offer-section {
+    background-color: var(--secondary-bg);   
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--primary-bg);
+}
+
+.offer-title {
+    margin-bottom: 50px;
+}
+
+.offer-footer {
+    margin-top: 30px;
+}
+
+.cta-container {
+    margin-bottom: 300px;
+    margin-top: 300px;
+}
+
+/* Testimony Section */
+
+.testimony-container {
+    /* width: 100%; */
+    height: fit-content;
+    /* background-color: var(--secondary-bg); */
+    padding: 3rem;
+    width: 100vw;
+}
+
+.testimony-text {
+    font-size: 24px;
+}
+
+.testimony-content {
+    background-color: #f9f9f9;
+    margin-bottom: 4rem;
+    width: 30rem;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #202020;
+    border-width: 4px;
+}
+
+.subwrapper {
+
+}
+
+@media (max-width: 576px) {
+    .testimony-content {
+        min-width: 576px; /* Set this value to the width of the content inside the container */
+        max-width: auto;
+        width: auto;
+    }
+
+    .subwrapper {
+        background-color: red;
+        min-width: 576px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content {
+        height: 50px;
+    }
+}
+
+.testimony-content img {
+    height: 250px;
+    width: 250px;
+}

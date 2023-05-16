@@ -29,7 +29,7 @@
                     <a class="nav-link lg text-end fs-4 nav-services navbar-selections" aria-current="page" href="#">Services</a>
                 </li>
                 <li class="nav-item nav-about">
-                    <a class="nav-link text-end fs-4 navbar-selections" href="aboutUs.php">About</a>
+                    <a class="nav-link text-end fs-4 navbar-selections" href="aboutUs.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="login.php" class="nav-link fs-4 login-button text-end navbar-selections" >Login</a>

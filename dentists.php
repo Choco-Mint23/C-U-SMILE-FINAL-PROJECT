@@ -69,21 +69,21 @@
 				<h2>Dr. Radhika Chopra</h2>
 				
 				<h3>Orthodontist </h3>
-				<p>Meet Dr. Radhika Chopra, our orthodontic specialist who is passionate about creating beautiful, healthy smiles for his patients. With his expertise in braces and Invisalign, he can help you achieve the smile you've always wanted.</p>
+				<p>Meet Dr. Radhika Chopra, our orthodontic specialist with 5 years of experience, who is passionate about creating beautiful, healthy smiles for his patients. With his expertise in braces and Invisalign, he can help you achieve the smile you've always wanted.</p>
 			</div>
 
 		    <div class="dent2">
 				<img src="dentists_images\woman-wore-white-shirt-raised-her-right-hand_1150-18810.avif" alt="Doctor 2">
 				<h2>Dr. Sarah Park</h2>
 				<h3>General & Cosmetic Dentist</h3>
-				<p>	Say hello to Dr. Sarah Park, our general dentist who is committed to providing comprehensive dental care for patients of all ages. From routine cleanings to complex restorative procedures, Dr. Garcia will ensure that your smile is healthy and beautiful.</p>
+				<p>	Say hello to Dr. Sarah Park, our general dentist with 3 years of experience, who is committed to providing comprehensive dental care for patients of all ages. From routine cleanings to complex restorative procedures, Dr. Garcia will ensure that your smile is healthy and beautiful.</p>
 			</div> 
 		 
 			<div class="dent3">
 				<img src="dentists_images\dentist-reza-tavakoli.jpg" alt="Doctor 1">
 				<h2>Dr. Carlito Leus</h2>
 				<h3>Endodontist</h3>
-				<p>Meet Dr. Carlito Leus is our endodontic specialist who focuses on root canal therapy and other complex procedures 
+				<p>Meet Dr. Carlito Leus is our endodontic specialist with 10 years of experience, who focuses on root canal therapy and other complex procedures 
 					to save damaged or infected teeth. With his advanced training and skillful techniques, he can help you preserve 
 					your natural teeth and maintain optimal oral health.
 				</p>
@@ -93,7 +93,7 @@
 				<img src="dentists_images\doc-mendoza.jpg" alt="Doctor 2">
 				<h2>Dr. John Kim</h2>
 				<h3>Periodontist</h3>
-				<p>Meet Dr. John Kim, our periodontal specialist who specializes in the diagnosis and treatment of gum disease. 
+				<p>Meet Dr. John Kim, our periodontal specialist with 12 years of experience, who specializes in the diagnosis and treatment of gum disease. 
 					With his knowledge and expertise in advanced techniques like laser therapy, he can help you restore the health 
 					of your gums and prevent future dental problems.
 				</p>
@@ -102,19 +102,20 @@
 
 	</main>
 
+		<!-- Footer-->
 		<footer>
-        	<div class="container">
-          	<div class="footer-content">
-            	<div class="logo">
-              	<a class="navbar-brand fs-4" href="#"><i class="fa-solid fa-tooth fa-lg" style="color: #ffffff;"></i> &nbsp C U Smile </a>
-            	</div>
-            	<div class="contact-info">
-              	<p>Email: <a href="mailto:youremail@example.com">CUsmile@gmail.com</a></p>
-              	<p>Phone: <a href="tel:+123456789">+2310878</a></p>
-            	</div>
-          	</div>
-        	</div>
-      	</footer>
+			<div class="container">
+			  <div class="footer-content">
+				<div class="logo">
+				  <a class="navbar-brand fs-4" href="#"><i class="fa-solid fa-tooth fa-lg" style="color: #ffffff;"></i> &nbsp C U Smile </a>
+				</div>
+				<div class="contact-info">
+				  <p>Email: <a href="mailto:youremail@example.com">CUsmile@gmail.com</a></p>
+				 <p>Mobile #: <a href="tel:+1234567890">(032) 230 0100</a></p>
+				</div>
+			  </div>
+			</div>
+		  </footer>
 				
 </body>
 </html>
